@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*menu*/
+nav {
+    height: 60px;
+    background-color: #084887;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#punkt_menu {
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu_logo {
+padding-left: 40px;
+width: 70px;
+height: 28px;
+}
+
+.menu_button {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/*1 блок*/
+#puzl_kod {
+    width: 30%;
+    padding-left: 35%;
+}
+
+#first_block {
+    max-height: 799px;
+}
+
+#background_phooto_first_block {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+#first_block_all_text {
+     position: absolute;
+     top: 20%;
+     margin: auto;
+} 
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#h2_first_block {
+    max-width: 60%;
+    font-size: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#first_block_h1_and_h2 {
+    margin-top: 25px;
+    padding-left: 20%;
+}
+
+#button_first_block {
+    background: linear-gradient(45deg, #1E7EE8, #7AB9FF);
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#button_first_block_two {
+    background: linear-gradient(45deg, #1E7EE8, #7AB9FF);
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#block_one_two_button {
+    margin-top: 25px;
+}
+
+#first_block_text {
+    text-decoration: underline #F58A07;
+    margin-top: 10px;
+    color: #F58A07;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#block_first_butotton_and_text {
+    padding-left: 35%;
+} 
+
+
+/* второй блок */
+#block_two_section {
+background-color: #084887;
+}
+
+#block_two_h2 {
+    text-align: end;
+    padding-right: 70px;
+    padding-top: 60px;
+    color: white;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#block_two_image_first {
+    margin-left: 40px;
+    width: 40%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 35px 65px rgba(0, 0, 0, 0.48);
+}
+
+#block_two_img_and_p {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#block_two_image_p {
+    width: 50%;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Monttserat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#block_third_section {
+    background-color: #084887;
+    background-image: url(./allphoto/line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+#block_three_h2 {
+    margin-left: 40px;
+    color: white;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul {
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Monttserat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#block_third_img_and_p {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+#block_three_image_first {
+    margin-right: 40px;
+    width: 25%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 35px 65px rgba(0, 0, 0, 0.48);
+}
+
+#block_four_section {
+    background-color: #084887;
+    padding-top: 60px;
+    background-image: url(./allphoto/line_block_4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block_four_h2 {
+    color: white;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 5%;
+}
+
+#block_four_img {
+    display: flex;
+}
+
+#block_four_image_p {
+    margin-left: 5%;
+    margin-top: 45px;
+    color: white;
+    font-size: 20px;
+    font-family: "Monttserat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 70%;
+}
+
+#block_four_image_first {
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block_five_section {
+    background-color: #084887;
+    padding-top: 60px;
+}
+
+#block_five_h2 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 5%;
+}
+
+#div_card {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#div_card_all {
+    width: 1120px;
+    margin: auto;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #084887;
+}
+
+#all_footer_two_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#all_footer_last {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer_h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.logo_sochial {
+    padding-left: 20px;
+}
+
+hr {
+    width: 1px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    #puzl_kod {
+        width: 30%;
+        padding-left: 35%;
+    }
+    
+    #first_block {
+        max-height: 156px;
+    }
+    
+    #background_phooto_first_block {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: brightness(50%);
+    }
+    
+    #first_block_all_text {
+         position: absolute;
+         top: 20%;
+         margin: auto;
+    } 
+    
+    h1 {
+        color: white;
+        font-size: 24px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    #h2_first_block {
+        max-width: 60%;
+        font-size: 20px;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    #first_block_h1_and_h2 {
+        margin-top: 25px;
+        padding-left: 20%;
+    }
+    
+    #button_first_block {
+        background: linear-gradient(45deg, #1E7EE8, #7AB9FF);
+        border: none;
+        color: white;
+        padding: 20px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border-radius: 15px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    #button_first_block_two {
+        background: linear-gradient(45deg, #1E7EE8, #7AB9FF);
+        border: none;
+        color: white;
+        padding: 20px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    
+    #block_one_two_button {
+        margin-top: 25px;
+    }
+    
+    #first_block_text {
+        text-decoration: underline #F58A07;
+        margin-top: 10px;
+        color: #F58A07;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    #block_first_butotton_and_text {
+        padding-left: 35%;
+    } 
+}
+
+@media (max-width:640px) {
+ /*480px*/
+}
+
+@media (max-width:960px) {
+/*640px*/
+}
+
+@media (max-width:1200px) {
+/*960px*/
+} 
